@@ -30,7 +30,7 @@ const Nav = () => {
                 />
             </div>
 
-            <div>
+            <div className="lg:hidden">
                 <Image src='/menu.svg' alt="menu logo"
                     width={20} height={10}
                     className="w-[30px] h-auto cursor-pointer"
