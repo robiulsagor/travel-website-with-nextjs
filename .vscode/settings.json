@@ -1,0 +1,7 @@
+{
+    "editor.cursorStyle": "underline",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 0
+}
