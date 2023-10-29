@@ -17,7 +17,7 @@ const Nav = () => {
         setMobileNav(false)
     }
     return (
-        <nav className="flex  justify-between items-center py-5 px-6 lg:px-20 3xl:px-0 relative max-w-[1440px] z-30 mx-auto ">
+        <nav className="flex justify-between items-center py-5 px-6 lg:px-20 3xl:px-0 relative max-w-[1440px] z-30 mx-auto ">
             <Link href="/" >
                 <Image src='/hilink-logo.svg' alt="logo" height={50} width={70} className="w-auto h-auto" priority={true}
                 />
@@ -49,7 +49,7 @@ const Nav = () => {
             </div>
 
             <div
-                className={`lg:hidden  h-screen absolute top-0  flex justify-end transition-all duration-300 ${mobileNav ? "w-full right-0" : "w-96 -right-96"}`} >
+                className={`lg:hidden  h-screen fixed top-0  flex justify-end transition-all duration-300 ${mobileNav ? "w-full right-0" : "w-96 -right-96"}`} >
 
                 {/* blur container */}
                 <div onClick={hideMobileNav}
@@ -57,7 +57,10 @@ const Nav = () => {
 
                 {/* Nav close button*/}
                 <span className="absolute  right-8 top-5 text-4xl cursor-pointer text-white font-bold select-none z-30  h-10 w-10 flex items-center justify-center"
-                    onClick={handleMobileNav}>X</span>
+                    onClick={handleMobileNav}>
+                    <Image src='/close.svg' alt="close icon"
+                        width={50} height={40} />
+                </span>
 
                 {/* actual nav  */}
                 <div className="z-20 w-full h-screen flex items-center justify-end">
