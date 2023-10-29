@@ -36,7 +36,7 @@ const Nav = () => {
                     type="button"
                     icon="/user.svg"
                     title="Login"
-                    variant="bg-slate-800 hover:bg-slate-900"
+                    variant="bg-slate-800 hover:bg-slate-900 text-white"
                 />
             </div>
 
