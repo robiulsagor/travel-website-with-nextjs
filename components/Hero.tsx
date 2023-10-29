@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const Hero = () => {
     return (
-        <section className="relative max-w-[1440px] mx-auto px-6 lg:px-20 3xl:px-0 flex flex-col xl:flex-row pt-8 gap-20 xl:gap-28 py-10 lg:py-20">
+        <section className="relative max-w-[1440px] mx-auto px-6 lg:px-20 3xl:px-0 flex flex-col xl:flex-row pt-8 gap-20 xl:gap-28 py-10 lg:py-20 pb-20">
             <div className="absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-36 xl:-top-60" />
 
             {/* Left side*/}
