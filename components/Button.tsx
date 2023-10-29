@@ -11,7 +11,7 @@ const Button = ({ type, icon, title, variant }: ButtonProps) => {
     return (
         <button
             type={type}
-            className={`flex  gap-2 ${variant} text-white px-4 py-3 rounded-full hover:opacity-60 transition-all duration-200`}
+            className={`flex  gap-4 ${variant} text-white px-8 py-4 rounded-full  transition-all duration-200 text-base font-bold`}
         >
             {icon && <Image src={icon} alt="user logo" width={20} height={10} className="h-auto w-auto" />}
             {title}
