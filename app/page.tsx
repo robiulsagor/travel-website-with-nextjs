@@ -1,3 +1,4 @@
+import App from '@/components/App'
 import Camp from '@/components/Camp'
 import Features from '@/components/Features'
 import Guide from '@/components/Guide'
@@ -11,6 +12,7 @@ export default function Home() {
       <Camp />
       <Guide />
       <Features />
+      <App />
     </div>
   )
 }
